@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Application - Aliv-e Furnitures</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: white;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: black;
+        }
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        input[type="text"],
+        input[type="email"],
+        input[type="file"] {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+        }
+        input[type="radio"] {
+            margin-right: 10px;
+        }
+        textarea {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 15px;
+        }
+        input[type="submit"] {
+            background-color: white;
+            color: brown;
+            box-shadow: blue;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Job Application - Aliv-e Furnitures</h1>
+        <form action="#" method="post" enctype="multipart/form-data">
+            <label for="position">Position:</label>
+            <input type="radio" name="position" id="position1" value="Sales Representative">
+            <label for="position1">Sales Representative</label>
+            <input type="radio" name="position" id="position2" value="Customer Service Representative">
+            <label for="position2">Customer Service Representative</label>
+            <input type="radio" name="position" id="position3" value="Furniture Designer">
+            <label for="position3">Furniture Designer</label>
+            <input type="radio" name="position" id="position4" value="Warehouse Assistant">
+            <label for="position4">Warehouse Assistant</label>
+            
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="cv">Upload CV:</label>
+            <input type="file" id="cv" name="cv" accept=".pdf,.doc,.docx" required>
+
+            <label for="message">Additional Message (Optional):</label>
+            <textarea id="message" name="message" rows="4"></textarea>
+
+            <input type="submit" value="Submit Application">
+        </form>
+    </div>
+</body>
+</html>
