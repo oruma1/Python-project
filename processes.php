@@ -3,7 +3,7 @@
 // database connection.
 
 //signup process
-if ( ! isset($_POST['signup
+if ( ! isset($_POST['signup'
 
 
 

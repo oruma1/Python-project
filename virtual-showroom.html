@@ -3,97 +3,71 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Our products</title>
+    <title>Virtual Showroom - Aliv-e Furnitures</title>
     <style>
-        /* CSS */
         body {
             font-family: Arial, sans-serif;
+            line-height: 1.6;
             margin: 0;
             padding: 0;
-            background-color: white;
-        }
-        header {
-            background-color: white;
-            color: brown;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav {
-            background-color: brown;
-            padding: 10px 0;
-            text-align: center;
-        }
-        nav ul {
-            list-style-type: none;
-            margin: 0;
-            padding: 0;
-        }
-        nav ul li {
-            display: inline;
-            margin-right: 20px;
-        }
-        nav ul li a {
-            color: #fff;
-            text-decoration: none;
+            background-color: #f4f4f4;
         }
         .container {
-            max-width: 800px;
-            margin: 0 auto;
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
             padding: 20px;
+            background: 
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
         h1 {
-            color: #333;
+            color: #6;
         }
-        p {
-            line-height: 1.6;
-        }
-        .dropdown-content {
-            display: none;
-            position: absolute;
-            background-color: brown;
-            min-width: 160px;
-            z-index: 1;
-        }
-        .dropdown:hover .dropdown-content {
-            display: block;
+        .item {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 1em;
+            padding: 10px;
+            background: #662d2d;
         }
     </style>
 </head>
-<body>
-    <header>
-        <h1>Virtual Showroom</h1>
-    </header>
-    <nav>
-        <ul>
-            <li><a href="index.html.html">Home</a></li>
-            <li class="dropdown">
-            <li><a href="#">Products</a>
-                <div class="dropdown-content">
-                <ul>
-                    <li><a href="#">Office</a></li>
-                    <li><a href="#">Living room</a></li>
-                    <li><a href="#">Dining</a></li>
-                    <li><a href="#">Storage</a></li>
-                    <li><a href="#">Bedroom</a></li>
-                    <li><a href="#">Decor & Finishings</a></li>
-                    <li><a href="#">Outdoor </a></li>
-                    <li><a href="#">Home Office</a></li>
-                </ul>
-            </li>
-           
-        </ul>
-    </nav>
-    <div class="search-bar">
-        <input type="text" class="form-control" placeholder="What do you need...">
-        <a href="#"><button class="btn">SEARCH</button></a>
-    </div>
-    <div class="container">
-        <h2>Welcome to Aliv-e Furnitures!</h2>
-        <p>We offer a wide range of high-quality furniture for your home and office. Explore our collection of chairs, tables, sofas, and more.</p>
-    </div>
-    
-</body>
 </html>
+    <div class="container">
+        <h1>Virtual Showroom</h1>
+        <div class="items">
+            <div class="item">
+                <span>Hardwood Dining Table</span>
+                <button onclick="addToWishlist('Hardwood Dining Table')">Add to Wishlist</button>
+            </div>
+            <div class="item">
+                <span>Elegant Living Room Sofa</span>
+                <button onclick="addToWishlist('Elegant Living Room Sofa')">Add to Wishlist</button>
+            </div>
+            <div class="item">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('Bespoke Bedroom Set')">Add to Wishlist</button>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </div>
 
+    <script>
+        async function addToWishlist(itemName) {
+            const response = await fetch('/api/wishlist', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify({ itemName })
+            });
+            const result = await response.json();
+            if (result.success) {
+                alert('Item added to wishlist!');
+            } else {
+                alert('Please log in to add items to your wishlist.');
+            }
+        }
+    </script>
 </body>
 </html>
