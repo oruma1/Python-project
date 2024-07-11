@@ -16,19 +16,19 @@
                 <div class="menu">
                     <ul>
                      
-                        <li><a href="virtual-showroom.html">Virtual Showroom</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="services.html">Services</a></li>
-                        <li><a href="contacts.html">Contacts</a></li>
-                        <li><a href="cart.html">Cart</a></li>
-                        <li><a href="wishlist.html">Wishlist</a></li>
+                        <li><a href="virtual-showroom.php">Virtual Showroom</a></li>
+                        <li><a href="about.php">About</a></li>
+                        <li><a href="services.php">Services</a></li>
+                        <li><a href="contacts.php">Contacts</a></li>
+                        <li><a href="cart.php">Cart</a></li>
+                        <li><a href="wishlist.php">Wishlist</a></li>
 
                     </ul>
                 </div>
                 
                 <div class="search-bar">
                     <input type="text" class="form-control" placeholder="What do you need...">
-                    <a href="virtual-showroom.html"><button class="btn">SEARCH</button></a>
+                    <a href="#"><button class="btn">SEARCH</button></a>
                 </div>
                   </div>  
                 <div class="content">

@@ -144,53 +144,53 @@
             <label>Sitting area</label>
             <div class="item">
             
-                <img src="images\coffee brown sofa.jpg" alt="sofa">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
                 <span>Bespoke Bedroom Set</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\coffee brown sofa.jpg')">Add to Wishlist</button>
-            </div><div class="item">
-                <img src="images\wooden kitchen set.jpg" alt="images\wooden kitchen set.jpg">
-                <span>Bespoke Bedroom Set</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\wooden kitchen set.jpg')">Add to Wishlist</button>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div><div class="item">
                 <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
                 <span>Bespoke Bedroom Set</span>
                 <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div><div class="item">
-                <img src="images\white chair.jpg" alt="Bespoke Bedroom Set">
-                <span>White Chair, Elegant</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\white chair.jpg')">Add to Wishlist</button>
-            </div><div class="item">
-                <img src="images/virtuoso tables and quilt rug.jpg" alt="images/virtuoso tables and quilt rug.jpg">
-                <span>white house set</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images/virtuoso tables and quilt rug.jpg')">Add to Wishlist</button>
-            </div><div class="item">
-                <img src="images\R.jpeg" alt="Bespoke Bedroom Set">
-                <span>extravagant bedroom set</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
-            </div><div class="item">
-                <img src="images\oi.jpg" alt="Bespoke Bedroom Set">
-                <span>REd sofa set                </span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\oi.jpg')">Add to Wishlist</button>
-            </div><div class="item">
-                <img src="images\queen size bed with bedside tables.jpg" alt="Sofa Set">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
                 <span>Bespoke Bedroom Set</span>
                 <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div><div class="item">
-                <img src="images\R I.jpeg" alt="Bespoke Bedroom Set">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
                 <span>Bespoke Bedroom Set</span>
                 <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div><div class="item">
-                <img src="images\stand alone drawers.jpg" alt="Bespoke Bedroom Set">
-                <span>Chest of Drawers</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\stand alone drawers.jpg')">Add to Wishlist</button>
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div><div class="item">
-                <img src="images\wall art cabin set.jpg" alt="Bespoke Bedroom Set">
-                <span>Cabin set</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\wall art shelf painters.jpg')">Add to Wishlist</button>
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div><div class="item">
-                <img src="images\wall art shelf painters.jpg" alt="Bespoke Bedroom Set">
-                <span>shelf</span>
-                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\wall art shelf painters.jpg')">Add to Wishlist</button>
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
+            </div><div class="item">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
+            </div><div class="item">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
+            </div><div class="item">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
+            </div><div class="item">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
+            </div><div class="item">
+                <img src="images\bedside ensemble.jpg" alt="Bespoke Bedroom Set">
+                <span>Bespoke Bedroom Set</span>
+                <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
             </div>
             <!-- Add more items as needed -->
         </div>

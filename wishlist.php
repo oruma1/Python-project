@@ -45,25 +45,7 @@
 <body>
     <div class="container">
         <h1>Wishlist</h1>
-        <div class="items">
-            <div class="item">
-                
-                <img src="images\Macabre black dining set.jpg"  alt="sophisticated dining set with black finishings">
-                <span>Hardwood Dining Table</span>
-                <button onclick="addToWishlist('1', 'B.Beauty Dining Table', 'images\Macabre black dining set.jpg')">Add to Wishlist</button>
-            </div>
-            
-            </div>
-            <div class="item">
-                <span>Bespoke Bedroom Set</span>
-                <button onclick="addToWishlist('Bespoke Bedroom Set')">Add to Wishlist</button>
-            </div>
-        </div><div class="item">
-            <img src="images\queen size bed with bedside tables.jpg" alt="Sofa Set">
-            <span>Bespoke Bedroom Set</span>
-            <button onclick="addToWishlist('1', 'Bedside ensemble', 'images\bedside ensemble.jpg')">Add to Wishlist</button>
-        </div>
-        
+   
         <div class="wishlist">
             <h2>Your Wishlist</h2>
             <div id="wishlist-items"></div>

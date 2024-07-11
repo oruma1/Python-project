@@ -1,14 +1,14 @@
 <?php
-//inserting constants
-require_once "constants.php";
+$servername = "localhost";
+$username = "root";
+$password = "";
+$dbname = "aliv_e_furnitures";
 
-// Create the database connection
-$dbConn = new mysqli(HOSTNAME,HOSTUSER , HOSTPASS,DBNAME);
+// Create connection
+$conn = new mysqli($servername, $username, $password, $dbname);
 
-// verification
-if($dbConn->connect_error) {
-    die("Error connecting to database");
+// Check connection
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
 }
-else{
-    print "Database connected successfully.";
-}
+?>
